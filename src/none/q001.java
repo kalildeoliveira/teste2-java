@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class q001 {
 
 	/**
-	 * lê uma nota de zero a 10 em uma loop até que a condição seja atendida
+	 * lê uma nota de zero a 10 em loop até que a condição seja atendida
 	 */
 
 	public static void main(String[] args) {
