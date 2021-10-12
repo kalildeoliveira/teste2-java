@@ -12,18 +12,24 @@ public class q005 {
 	public static void main(String[] args) {
 		 Scanner entrada = new Scanner(System.in);
 		 String [] nome = new String [21];
-		 String opcao = "", l="l";
+		 String opcao = "", e="e", l="l";
 		 
 		 // Populando o Vetor
+		 System.out.println("Digite números de 1 a 20.");
 		 for (int i=1; i<=20;i++) {
 			 System.out.print("Número "+i+": ");
 			 nome[i] = entrada.next();
 		 }
-		 
+
 		 // Imprimindo números embaixo
-		 System.out.println("\n\nOs números digitados foram: \n");
-		 for (int i=1; i<=20; i++) {
-			 System.out.println(nome[i]);
+		 System.out.println("\nPressione \"e\" para exibir relatório");
+		 System.out.print("Opção: ");
+		 opcao = entrada.next();
+		 if (opcao.equals(e)) {
+			 System.out.println("\n\nOs números digitados foram: \n");
+			 for (int i=1; i<=20; i++) {
+				 System.out.println(nome[i]);
+			 }
 		 }
 		 
 		 // Alterar para impressão um ao lado do outro
@@ -39,6 +45,6 @@ public class q005 {
 				 }
 			 }
 		 }
-		 System.out.println("\nFim do Programa.");
+		 System.out.println("\n\nFim do Programa.");
 	}
 }
