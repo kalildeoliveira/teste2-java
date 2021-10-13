@@ -7,7 +7,7 @@ public class q006 {
 	 */
 
 	public static void main(String[] args) {
-		Scanner entrada = new Scanner((System.in));
+		Scanner entrada = new Scanner(System.in);
 		String opcao="", r="r";
 		System.out.println("Digite \"r\" para gerar relação de números ímpares de 1 a 50" +
 				" ou outra letra para encerrar o programa");
