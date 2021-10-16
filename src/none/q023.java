@@ -12,7 +12,7 @@ public class q023 {
 		System.out.println("Informe a quantidade de alunos");
 		System.out.print("Alunos: ");
 		alunos=entrada.nextInt();
-		System.out.println("Informe a quantidade de turmas");		
+				
 		System.out.println("Com a quantidade de alunos informada necessário a abertura de no mínimo ");
 		System.out.println(alunos/40 + " turmas de até 40 alunos");		
 	}
