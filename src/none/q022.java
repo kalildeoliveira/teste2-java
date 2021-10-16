@@ -3,23 +3,22 @@ import java.util.*;
 public class q022 {
 	
 	/**
-	 * lê os votos de três candidatos e devolve o total de cada um.
+	 * lÃª os votos de trÃªs candidatos e devolve o total de cada um.
 	 */
 
 
 	public static void main (String[]args) {
-		Scanner entrada = new Scanner(System.in);
-		double idade=0, media=0;
+		Scanner entrada = new Scanner(System.in);		
 		int limite=0, voto1=0, voto2=0, voto3=0;
 		String candidato="", candidato1="1", candidato2="2", candidato3="3";
-		System.out.println("Qual o número de votantes?");
+		System.out.println("Qual o nÃºmero de votantes?");
 		System.out.print("Votantes: ");
 		limite=entrada.nextInt();
 		for (int i=1; i<=limite; i++) {
 			System.out.println("Pressione \"1\"para candidato 1, "
 					+ "\"2\" para candidato 2 ou"
 					+ "\3\" para candidato 3");
-			System.out.print("Opção: ");	
+			System.out.print("OpÃ§Ã£o: ");	
 			candidato=entrada.next();
 			if (candidato.equals(candidato1)) {
 				voto1++;
